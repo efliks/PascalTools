@@ -597,20 +597,20 @@ end;
 
 procedure menu;
 begin                        
-    write('        oo                             oo                                       ');
-    write('       oooo                           ooo                                       ');
-    write('      o                                oo                    oo                 ');
-    write('      o                                oo                    o                  ');
-    write('     oooo      o    o      o   o       oo  o         oo       o        oo       ');
-    write('    oooo     ooo   oo    ooo  oo       oo ooo       oooo    ooo       oooo      ');
-    write('      oo      oo  ooo     oo oooo      oo  o       o  o      oo      o  o       ');
-    write('      oo      oo  ooo     ooo  oo      oo o       oo         oo     oo o        ');
-    write('      oo      oo o oo     oo   oo      ooooo      ooo        oo     oo          ');
-    write('      oo      ooo  oo     oo   oo      oo  oo      ooo       oo      ooo o      ');
-    write('      o        o   o      o    o       o   ooo      oooo     oo       ooo       ');
-    write('                                                             oo                 ');
-    write('------------------------------[ (c) 2004 Mickey Mouse ]------oo-----------------');
-    write('                                                             oo                 ');
+    writeln('        oo                             oo                                      ');
+    writeln('       oooo                           ooo                                      ');
+    writeln('      o                                oo                    oo                ');
+    writeln('      o                                oo                    o                 ');
+    writeln('     oooo      o    o      o   o       oo  o         oo       o        oo      ');
+    writeln('    oooo     ooo   oo    ooo  oo       oo ooo       oooo    ooo       oooo     ');
+    writeln('      oo      oo  ooo     oo oooo      oo  o       o  o      oo      o  o      ');
+    writeln('      oo      oo  ooo     ooo  oo      oo o       oo         oo     oo o       ');
+    writeln('      oo      oo o oo     oo   oo      ooooo      ooo        oo     oo         ');
+    writeln('      oo      ooo  oo     oo   oo      oo  oo      ooo       oo      ooo o     ');
+    writeln('      o        o   o      o    o       o   ooo      oooo     oo       ooo      ');
+    writeln('                                                             oo                ');
+    writeln('------------------------------[ (c) 2004 Mickey Mouse ]------oo----------------');
+    writeln('                                                             oo                ');
 
     write('Funkcja : ');
         drukuj_wzor_wielomianu(true);
