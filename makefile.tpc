@@ -1,0 +1,27 @@
+
+TARGETS = b_bin.exe b_kalk.exe b_kod.exe b_lidosk.exe b_pierw.exe b_totek.exe b_trojk.exe fxx.exe macierze.exe
+TPC = tpc
+
+all : $(TARGETS)
+
+b_bin.exe : b_bin.pas
+	$(TPC) b_bin.pas
+b_kalk.exe : b_kalk.pas
+	$(TPC) b_kalk.pas
+b_kod.exe : b_kod.pas
+	$(TPC) b_kod.pas
+b_lidosk.exe : b_lidosk.pas
+	$(TPC) b_lidosk.pas
+b_pierw.exe : b_pierw.pas
+	$(TPC) b_pierw.pas
+b_totek.exe : b_totek.pas
+	$(TPC) b_totek.pas
+b_trojk.exe : b_trojk.pas
+	$(TPC) b_trojk.pas
+fxx.exe : fxx.pas
+	$(TPC) fxx.pas
+macierze.exe : macierze.pas
+	$(TPC) macierze.pas
+
+clean :
+	del *.exe
